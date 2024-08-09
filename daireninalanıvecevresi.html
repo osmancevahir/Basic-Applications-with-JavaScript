@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairenin Alanı ve Çevresini Bulma</title>
+</head>
+<body>
+
+    <script>
+        //Değişkenleri tanımlıyoruz.Pi sabit terim olduğu için ona değeri burda veriyoruz
+        var r,alan,cevre,pi=3.14;
+
+        //Kullanıcıdan yarıçap değerini öğrenelim
+        r=Number(prompt("Dairenin yarıçapını giriniz:"));
+
+        //Dairenin Alan ve Çevresini hesaplanması için formülleri giriyoruz
+        alan=pi*r*r;
+        cevre=2*pi*r;
+
+        //Yapılan sonucu ekrana verelim
+        alert("Dairenin çevresi:"+cevre+" Dairenin alanı:"+alan);
+    </script>
+    
+</body>
+</html>

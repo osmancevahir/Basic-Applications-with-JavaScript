@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikdörtgen Alan ve Çevre Hesaplama</title>
+</head>
+<body>
+
+    <script>
+        //Bize işlemler için lazım olan değişkenleri tanımladık
+        var kenar1,kenar2,alan,uzunluk;
+
+        //Kullanıcıdan uzunluk değerlerini alıp bunları değişkenlere atadık
+        kenar1=Number(prompt("Dikdörtgenin 1. kenar uzunluğunu giriniz:"));
+        kenar2=Number(prompt("Dikdörtgenin 2. kenar uzunluğunu giriniz:"));
+        
+        //Dikdörtgenin uzunluk ve alan tanımını yapıp değişkene atıyoruz
+        uzunluk=(kenar1+kenar2)*2;
+        alan=kenar1*kenar2;
+
+        //Kullanıcıya dikdörtgenin uzunluk ve alan sonuçlarını ekrana yazdırıyoruz
+        alert("Dikdörtgenin çevresi:"+uzunluk+" Dikdörtgenin alanı:"+alan);
+
+
+    </script>
+    
+</body>
+</html>

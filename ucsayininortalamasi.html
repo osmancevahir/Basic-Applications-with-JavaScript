@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üç Sayının Ortalamasını Bulma</title>
+</head>
+<body>
+    
+    <script>
+        //üç tane sayı girileceği için üç tane değişken tanımlıyoruz ve birde ortalama yapılacağı için değişken tanımlayalım.Bu sefer değişkenleri tek satırda tanımlamadan yapalım farklılık olsun
+        var sayi1;
+        var sayi2;
+        var sayi3;
+        var ortalama;
+
+        //Kullanıcıdan gireceği sayıları alalım ve bunları değişkenler sırasıyla atayalım
+        sayi1=Number(prompt("Birinci sayıyı giriniz:"));
+        sayi2=Number(prompt("İkinci sayıyı giriniz:"));
+        sayi3=Number(prompt("Üçüncü sayıyı giriniz:"));
+
+        //Girilen sayıların ortalamasını alması için değikene tanımlama yapalım
+        ortalama=(sayi1+sayi2+sayi3)/3;
+
+        //En son aşamada bulunan ortalamayı ekrana yazdıralım
+        alert("Girdiğiniz sayıların ortalaması: "+ortalama);
+    </script>
+
+</body>
+</html>
